@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Product:</b>
+  <%= @product.product_id %>
+</p>
+
+<p>
+  <b>Prod name:</b>
+  <%= @product.prod_name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @product.description %>
+</p>
+
+<p>
+  <b>Supplier name:</b>
+  <%= @product.supplier_name %>
+</p>
+
+<p>
+  <b>Supplier:</b>
+  <%= @product.supplier_id %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @product.price %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @product.country %>
+</p>
+
+<p>
+  <b>Alcohol:</b>
+  <%= @product.alcohol %>
+</p>
+
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>

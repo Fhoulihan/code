@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  product_id: MyString
+  prod_name: MyString
+  description: MyString
+  supplier_name: MyString
+  supplier_id: MyString
+  price: 1.5
+  country: MyString
+  alcohol: MyString
+
+two:
+  product_id: MyString
+  prod_name: MyString
+  description: MyString
+  supplier_name: MyString
+  supplier_id: MyString
+  price: 1.5
+  country: MyString
+  alcohol: MyString
